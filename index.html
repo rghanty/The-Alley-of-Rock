@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Alley of Rock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href = "index.css" rel = "stylesheet">
+</head>
+<body>
+
+    <nav>
+        <a class = "home" href = "#"><img src = "Images/logo.PNG"></a>
+        <div class = "title"><a class = "heading" href = "#">THE ALLEY OF ROCK</a></div>
+        <ul>
+        <li><a class = "artists" href = "#">Artists</a></li>
+        <li><a class = "albums" href = "#">Albums</a></li>
+        <li><a class = "about" href = "#">About</a></li>
+        </ul>
+        <button>Surprise Me</button>
+    </nav>
+
+    <div class="slideshow">
+        <div class="slides">
+            <div class = "slide">
+                <div class="content-start">
+                    <span class = "welcome">Welcome to</span><span id = "name"></span>
+                    <ul>
+                        <li>Explore the vast world of rock and metal music through my eyes and ears.</li>
+                        <li>Enjoy learning about the many bands and artists that have influenced rock music throughout history.</li>
+                        <li>Go through famous rock albums and find out more about them.</li>
+                        <li>Learn more about this page and its objectives in <span>ABOUT</span>. </li>
+                        <li>Begin your journey with my top 5 favourite bands of all time.</li>
+
+                    </ul>
+                    <button class = "begin">Let's Begin!</button>
+                </div>
+
+                <img id = "rock-bands" src = "Images/bands.jpg" alt = "bands">
+
+            </div>
+            <div class="slide">
+                <div class="content">This is Led Zeppelin</div>
+                <img id = "lz" src="Images/LZ.jpg" alt="led-zeppelin">
+
+            </div>
+
+            <div class="slide">
+                <div class="content">This is Metallica</div>
+
+                <img id = "mt" src="Images/Metallica.jpeg" alt="metallica">
+
+            </div>
+            <div class="slide">
+                <div class="content">This is Van Halen</div>
+
+                <img id = "vh" src="Images/Van%20Halen.jpg" alt="vh">
+
+            </div>
+            <div class="slide">
+                <div class="content">This is Dire Straits</div>
+
+                <img id = "ds" src="Images/Dire%20Straits.jpg" alt="ds">
+
+            </div>
+            <div class="slide">
+                <div class="content">This is Pink Floyd</div>
+
+                <img id = "pf" src="Images/PF.jpg" alt="pink-floyd">
+
+            </div>
+            <!-- Add more slides as needed -->
+        </div>
+        <button class="prev-btn">&#8656;</button>
+        <button class="next-btn">&#8658;</button>
+    </div>
+
+    <script src = "index.js"></script>
+</body>
+</html>
