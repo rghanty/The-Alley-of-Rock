@@ -25,7 +25,7 @@
 }
 
 body {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     background: linear-gradient(#000000, #343333) no-repeat fixed;
 
 }
@@ -39,7 +39,7 @@ nav {
 
 nav .title {
     color: white;
-    width: 450px;
+    width: 600px;
     height: 50px;
     margin: auto;
     font-weight: bold;
@@ -245,6 +245,15 @@ span #name {
     margin-left: 100px;
 }
 
+.band-rank {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.band-info {
+    margin-top: 30px;
+    font-size: 28px;
+}
 .prev-btn,
 .next-btn {
     position: absolute;
